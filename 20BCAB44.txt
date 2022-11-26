@@ -11,7 +11,7 @@ grunt> E = order A by esal;
 grunt> dump E;
 grunt> F = order A by esal desc;
 grunt> dump F;
-grunt> store F into '/user/cloudera/aryan/pigout/' using PigStorage(',');
+grunt> store F into '/user/cloudera/david/pigout/' using PigStorage(',');
 grunt> G = foreach A generate eid;
 grunt> dump G;
 grunt> H = foreach A generate * , ecom * 3 as bonus, esal * 5 as incentive;
