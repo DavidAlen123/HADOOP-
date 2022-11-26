@@ -49,10 +49,6 @@ Word Count
 
 $pig
 grunt> cat alen/v.txt
-hi
-hi
-hi
-
 grunt> lines = load '/user/cloudera/alen/v.txt' as (line:chararray);
 grunt> dump lines;
 grunt> token = foreach lines generate TOKENIZE(line);
